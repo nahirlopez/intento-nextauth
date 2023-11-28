@@ -15,6 +15,7 @@ function Boton(){
     <button onClick={() => signOut()}>
    Sign out
   </button>
+  router.push("/dashboard")
   <Link href="/dashboard">
   Go to Dash
  </Link>
